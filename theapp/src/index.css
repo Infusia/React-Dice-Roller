@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  border: 1px solid grey;
+  background-color: white;
+  margin: auto;
+  width: 1000px;
+  height: 450px;
+  margin-top: 50px;
+}
+.diceimg {
+height: 60%;
+position: relative;
+padding-top: 4%;
+}
+.incrementDice{
+  background-color: lawngreen;
+  float: left;
+  height: 50px;
+  
+}
+.decrementDice{
+  background-color:red;
+  float: left;
+  height: 50px;
+}
+.incrementSides{
+  background-color: lawngreen;
+  float: right;
+  height: 50px;
+}
+.decrementSides{
+  background-color:red;
+  float: right;
+  height: 50px;
+}
+.diceCount{
+  float: left;
+  font-size: xx-large;
+ 
+}
+.sideCount{
+  float: right;
+  font-size: xx-large;
+}
+.sumCount{
+  font-size: xx-large;
+}
+.rollDice{
+  background-color: #555555;
+  border: none;
+  color: white;
+  text-align: center;
+ width: 300px;
+ height: 50px;
+  display: inline-block;
+  font-size: 16px;
+}
